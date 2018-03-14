@@ -1,0 +1,26 @@
+{
+  "presets": ["env", "es2015", "stage-3"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "vue": "vue/dist/vue.esm.js",
+          "@apis": "./src/mnode_fe/apis",
+          "@comps": "./src/mnode_fe/components",
+          "@conf": "./src/mnode_fe/config"
+        }
+      }
+    ],
+    "transform-decorators-legacy",
+    [
+      "transform-runtime",
+      {
+        "helpers": false,
+        "polyfill": false,
+        "regenerator": true,
+        "moduleName": "babel-runtime"
+      }
+    ]
+  ]
+}
