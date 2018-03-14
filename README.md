@@ -1,6 +1,6 @@
 # parcel-kg
 
->  基于 parcel 的简易脚手架
+> 基于 parcel 的简易脚手架
 
 ## Preview
 
